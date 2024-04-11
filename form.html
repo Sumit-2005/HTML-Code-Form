@@ -12,15 +12,33 @@
         <br><br>
         <input type="number" placeholder="Age">
         <br><br>
-        Select your gender
+        <b>Select your gender</b>
         <br>
         <select name="Gender" id="Gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
-            <option value="Prefer not say">Prefer not say</option>
+            <option value="\Rather not say">Rather not say</option>
         </select>
         <br><br>
-        Select the programming language you want to learn
+        <b>Select Your Education Level</b>
+        <label for="id1">
+        <br>
+        <input type="radio" value="Below Class IX" name="class" id="id1">Below Class IX
+        </label>
+        <label for="id2">
+        <br>
+        <input type="radio" value="Class IX / X" name="class" id="id2">Class IX / X
+        </label>
+        <label for="id3">
+        <br>
+        <input type="radio" value="Class XI / XII" name="class" id="id3">Class XI / XII
+        </label>
+        <label for="id4">
+        <br>
+        <input type="radio" value="College" name="class" id="id4">College
+        </label>
+        <br><br>
+        <b>Select the programming language you want to learn</b>
         <br>
         <select name="Language" id="language">
             <option value="HTML">HTML</option>
@@ -31,16 +49,38 @@
             <option value="MySQL">MySQL</option>
         </select>
         <br><br>
-        Select Your Education Level
+        <b>Select the Programming languages that you already know</b>
         <br>
-        <input type="radio" value="Below Class IX" name="class">Below Class IX
+        <label for="HTML">
+        <input type="checkbox" value="HTML" name="subject" id="101">HTML
+        </label>
         <br>
-        <input type="radio" value="Class IX / X" name="class">Class IX / X
+        <label for="CSS">
+        <input type="checkbox" value="CSS" name="subject" id="101">CSS
+        </label>
+         <br>
+        <label for="JavaScript">
+        <input type="checkbox" value="JavaScript" name="subject" id="101">JavaScript
+        </label>
         <br>
-        <input type="radio" value="Class XI / XII" name="class">Class XI / XII
+        <label for="JAVA">
+        <input type="checkbox" value="JAVA" name="subject" id="101">JAVA
+        </label>
         <br>
-        <input type="radio" value="College" name="class">College
-
+        <label for="Python">
+        <input type="checkbox" value="Python" name="subject" id="101">Python
+        </label>
+        <br>
+        <label for="MySQL">
+        <input type="checkbox" value="MySQL" name="subject" id="101">MySQL
+        </label>
+        <br><br>
+        <b>Please give us your feedback on this form</b>
+        <br>
+        <textarea name="Feedback" id="1" cols="30" placeholder="Your Feedback">Your Feedback
+        </textarea>
+        <br><br>
+        <input type="submit">
     </form>
 </body>
 </html>
